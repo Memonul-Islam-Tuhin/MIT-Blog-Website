@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/blog.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blog Website</title>
+  </head>
+  <body>
+    <!-- header section start here  -->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fas fa-t logo"></i>
+      </figure>
+
+      <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+      <nav aria-label="Main Menu" id="menu" class="hidden">
+        <ul id="menubar" role="menubar" aria-label="Main Menu">
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Home</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">About</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Archives</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Blog Post</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header section end here  -->
+    <!-- main section start here  -->
+    <main>
+      <!-- banner section start here  -->
+      <section id="blog-banner-section">
+        <article>
+          <h1 class="banner-heading">Node.js Development</h1>
+          <p class="banner-description text-justify">
+            I believe Web development is always fun. We should learn web
+            development for a bright career. I have started learning web
+            development 2 years ago and still learning. I started with HTML,
+            CSS, JS and now I am learning next.js. I must say web development
+            demands more patience and consistency.
+          </p>
+        </article>
+        <aside>
+          <img
+            src="../images/background-img.jpg"
+            alt="cover-img"
+            class="banner-img"
+          />
+        </aside>
+      </section>
+      <!-- banner section end here  -->
+
+      <!-- about me ssection start here  -->
+      <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3 class="card-header">Education</h3>
+            <p class="card-description">
+              It takes monumental improvement for us to change how we live our
+              lives. Design is the way we access that improvement. We are never
+              late from trying to reach our dream. Try hard, practice more and
+              most importantly be consistent.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Teaching</h3>
+            <p class="card-description">
+              It takes monumental improvement for us to change how we live our
+              lives. Design is the way we access that improvement. We are never
+              late from trying to reach our dream. Try hard, practice more and
+              most importantly be consistent.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Learning</h3>
+            <p class="card-description">
+              It takes monumental improvement for us to change how we live our
+              lives. Design is the way we access that improvement. We are never
+              late from trying to reach our dream. Try hard, practice more and
+              most importantly be consistent.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+        </div>
+      </section>
+      <!-- about me ssection end here  -->
+      <!-- archives section start here  -->
+      <section id="archives" class="section-center">
+        <h2 class="section-heading">Archives</h2>
+        <div class="archives-container">
+          <ul class="archives-container-lists">
+            <li class="archives-container-list">
+              <img
+                src="../images/background-img5.jpg"
+                alt="img-1"
+                class="archives-img"
+              />
+            </li>
+            <li class="archives-container-list">
+              <img
+                src="../images/background-img6.jpg"
+                alt="img-2"
+                class="archives-img"
+              />
+            </li>
+            <li class="archives-container-list">
+              <img
+                src="../images/background-img7.jpg"
+                alt="img-3"
+                class="archives-img"
+              />
+            </li>
+            <li class="archives-container-list">
+              <img
+                src="../images/background-img8.jpg"
+                alt="img-4"
+                class="archives-img"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- archives section end here  -->
+
+      <!-- blog post section start here  -->
+      <section id="blog-posts" class="section-center">
+        <h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img
+              src="../images/background-img2.jpg"
+              alt="laptop"
+              class="blog-img"
+            />
+          </aside>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub Heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusamus sint labore ea! Minima id harum eveniet sequi nisi
+              repudiandae alias laborum nulla blanditiis nihil tenetur ut vitae
+              molestiae natus cupiditate dolore neque molestias fugit totam,
+              repellendus ad in quas quos. Iure rerum cum recusandae cupiditate
+              ut, veniam est aspernatur quod?
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img
+              src="../images/background-img3.jpg"
+              alt="laptop"
+              class="blog-img"
+            />
+          </aside>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 2</h2>
+            <h3 class="blog-sub-heading">Sub Heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusamus sint labore ea! Minima id harum eveniet sequi nisi
+              repudiandae alias laborum nulla blanditiis nihil tenetur ut vitae
+              molestiae natus cupiditate dolore neque molestias fugit totam,
+              repellendus ad in quas quos. Iure rerum cum recusandae cupiditate
+              ut, veniam est aspernatur quod?
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img
+              src="../images/background-img4.jpg"
+              alt="laptop"
+              class="blog-img"
+            />
+          </aside>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 3</h2>
+            <h3 class="blog-sub-heading">Sub Heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusamus sint labore ea! Minima id harum eveniet sequi nisi
+              repudiandae alias laborum nulla blanditiis nihil tenetur ut vitae
+              molestiae natus cupiditate dolore neque molestias fugit totam,
+              repellendus ad in quas quos. Iure rerum cum recusandae cupiditate
+              ut, veniam est aspernatur quod?
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+      </section>
+      <!-- blog post section end here  -->
+
+      <!-- contact section start here  -->
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading blog-posts-heading text-white">
+          Contact Me
+        </h2>
+        <form
+          action="mailto:memonulislam@gmail.com"
+          method="POST"
+          id="contact-form"
+        >
+          <div class="form-control">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              autocomplete="name"
+              placeholder="Enter name"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              autocomplete="email"
+              placeholder="Enter email"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              autocomplete="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Write message..."
+            ></textarea>
+          </div>
+          <div class="form-control form-btn-field">
+            <button type="submit" class="contact-btn btn">submit</button>
+          </div>
+        </form>
+      </section>
+      <!-- contact section end here  -->
+    </main>
+    <!-- main section end here  -->
+    <!-- footer section start here  -->
+    <footer>
+      <p class="copyright-text">
+        copyright &copy; All Reversed By Memonul Islam
+      </p>
+
+      <nav aria-label="Footer Menu">
+        <ul id="menubar2" role="menubar2" aria-label="Footer Menu">
+          <li role="none">
+            <a
+              href="https://www.facebook.com/memonul.islam.7"
+              target="_blank"
+              role="menuitem"
+              class="nav-link"
+            >
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.youtube.com/@memonulislam"
+              class="nav-link"
+              role="menuitem"
+              target="_blank"
+            >
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.github.com/Memonul-Islam-Tuhin"
+              class="nav-link"
+              role="menuitem"
+              target="_blank"
+            >
+              <i class="fab fa-github footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="https://www.linkedin.com/in/memonul-islam-a3078b322/"
+              class="nav-link"
+              role="menuitem"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin footer-icon"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- footer section end here  -->
+    <script src="../js/index.js"></script>
+  </body>
+</html>
